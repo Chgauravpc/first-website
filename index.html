@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Login</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+    <nav>
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">offer</a></li>
+        <li> <a href="#">help</a></li></ul>
+    </nav>
+</header>
+<div class="search">
+    <form action="https://www.amazon.in/search/s" method="get">
+        <input autocomplete="off" autofocus name="k" placeholder="search without login" type="search">
+        <button>Search</button>
+    </form>
+</div>
+    <main class="loginbox">
+        <h1 class="title">Login to Your Account</h1>
+
+        <form class="login">
+            <div class="input">
+                <label> </label>Email Address</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email" required autofocus>
+            </div>
+
+            <div class="input">
+                <label> </label>Password</label>
+                <input id="password" name="password" type="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="tap">
+                <a href="https://www.amazon.in/">
+                    Login
+                </a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
